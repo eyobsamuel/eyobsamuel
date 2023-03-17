@@ -3,20 +3,21 @@
     <div xmlns="http://www.w3.org/1999/xhtml">
       <style>
         label {
-        display: block;
-        background: lightgrey;
-        width: 100px;
-        height: 100px;
+          color: red;
+          display: block;
+          background: lightgrey;
+          width: 100px;
+          height: 100px;
     }
 
-    #demo:checked + label {
-        background: blue;
-        color: white;
-    }
+      #demo:checked + label {
+          background: blue;
+          color: white;
+      }
       </style>
 
       <input type="checkbox" id="demo"/>
-<label for="demo">I'm a square. Click me.</label>
+      <label for="demo">I'm a square. Click me.</label>
     </div>
   </foreignObject>
 </svg>
