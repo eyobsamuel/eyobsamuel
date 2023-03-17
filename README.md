@@ -1,5 +1,6 @@
 ### Hi there 👋
-
+![Alt text](./test.svg)
+<img src="./test.svg">
 <!--
 **eyobsamuel/eyobsamuel** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
