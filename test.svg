@@ -2,10 +2,22 @@
 <svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
 <foreignObject width="100" height="100">
     <div xmlns="http://www.w3.org/1999/xhtml">
-        <ul>
-            <li>text</li>
-        </ul>
-        <!-- Other embed HTML element/text into SVG -->
+        <style>
+            label {
+                display: block;
+                background: lightgrey;
+                width: 100px;
+                height: 100px;
+            }
+
+            #demo:checked + label {
+                background: blue;
+                color: white;
+            }
+
+        </style>
+        <input type="checkbox" id="demo"/>
+        <label for="demo">I'm a square. Click me.</label>
     </div>
 </foreignObject>
 </svg>
