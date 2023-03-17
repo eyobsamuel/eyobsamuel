@@ -1,197 +1,67 @@
-<svg
-   xmlns="http://www.w3.org/2000/svg" 
-   width="900"
-   height="100"
-   version="1.1">
-  <defs>
-    <pattern id="image1" x="0" y="0"  height = "100%" width = "100%"      
-patternContentUnits = "objectBoundingBox">
-      <image preserveAspectRatio = "none" width = "1" height = "1" href="https://i.postimg.cc/vDcPGT1Z/butler-face.png"></image>
-    </pattern>
-    
-    <pattern id="image2" x="0" y="0"  height = "100%" width = "100%"      
-patternContentUnits = "objectBoundingBox">
-      <image preserveAspectRatio = "none" width = "1" height = "1" href="https://i.postimg.cc/8s9ZcGWB/frightened.png"></image>
-    </pattern>
-    
-    <pattern id="image3" x="0" y="0"  height = "100%" width = "100%"      
-patternContentUnits = "objectBoundingBox">
-      <image preserveAspectRatio = "none" width = "1" height = "1" href="https://i.postimg.cc/8jvtrYm8/herald.png"></image>
-    </pattern>
-    
-    <pattern id="image4" x="0" y="0"  height = "100%" width = "100%"      
-patternContentUnits = "objectBoundingBox">
-      <image preserveAspectRatio = "none" width = "1" height = "1" href="https://i.postimg.cc/FfrZ8H5m/lion.png"></image>
-    </pattern>
-    
-    <pattern id="image5" x="0" y="0"  height = "100%" width = "100%"      
-patternContentUnits = "objectBoundingBox">
-      <image preserveAspectRatio = "none" width = "1" height = "1" href="https://i.postimg.cc/5XqgsFrn/nemoawake.png"></image>
-    </pattern>
-    
-    <pattern id="image6" x="0" y="0"  height = "100%" width = "100%"      
-patternContentUnits = "objectBoundingBox">
-      <image preserveAspectRatio = "none" width = "1" height = "1" href="https://i.postimg.cc/68NzVhM8/old-man.png"></image>
-    </pattern>
-  </defs>
-  
-  <circle  cx="100" cy="50" r="30" fill="url(#image1)"></circle>
-  <circle  cx="100" cy="50" r="30" fill="#ffffff">
-      <animate 
-      attributeName="fill" 
-      values="#ffffff;transparent; " 
-      begin="6.1s"
-      dur="0.1s"
-      fill="freeze"
-      repeatCount="1" 
-  />
-  </circle>
-  <circle  cx="200" cy="50" r="30" fill="url(#image2)"></circle>
-  <circle  cx="200" cy="50" r="30" fill="#ffffff">
-      <animate 
-      attributeName="fill" 
-      values="#ffffff;transparent; " 
-      begin="6.1s"
-      dur="0.1s"
-      fill="freeze"
-      repeatCount="1" 
-  />
-  </circle>
-  <circle  cx="300" cy="50" r="30" fill="url(#image3)"></circle>
-  <circle  cx="300" cy="50" r="30" fill="#ffffff">
-      <animate 
-      attributeName="fill" 
-      values="#ffffff;transparent; " 
-      begin="6.1s"
-      dur="0.1s"
-      fill="freeze"
-      repeatCount="1" 
-  />
-  </circle>
-  <circle  cx="400" cy="50" r="30" fill="url(#image4)"></circle>
-  <circle  cx="400" cy="50" r="30" fill="#ffffff">
-      <animate 
-      attributeName="fill" 
-      values="#ffffff;transparent; " 
-      begin="6.1s"
-      dur="0.1s"
-      fill="freeze"
-      repeatCount="1" 
-  />
-  </circle>
-  <circle  cx="500" cy="50" r="30" fill="url(#image5)"></circle>
-  <circle  cx="500" cy="50" r="30" fill="#ffffff">
-      <animate 
-      attributeName="fill" 
-      values="#ffffff;transparent; " 
-      begin="6.1s"
-      dur="0.1s"
-      fill="freeze"
-      repeatCount="1" 
-  />
-  </circle>
-  <circle  cx="600" cy="50" r="30" fill="url(#image6)"></circle>
-  <circle  cx="600" cy="50" r="30" fill="#ffffff">
-      <animate 
-      attributeName="fill" 
-      values="#ffffff;transparent; " 
-      begin="6.1s"
-      dur="0.1s"
-      fill="freeze"
-      repeatCount="1" 
-  />
-  </circle>
-    <circle  cx="50" cy="50" r="30" fill="#ff0000">
-      <animate attributeName="cx"
-        from="50"  to="100"
-        begin="0s" dur="1s"
-        fill="freeze"             
-        repeatCount="1"/>
-             <animate 
-      attributeName="fill" 
-      values="#ff0000;transparent; " 
-      begin="7.2s"
-      dur="1s"
-      fill="freeze"
-      repeatCount="1" 
-  />
-  </circle>
-    <circle  cx="50" cy="50" r="30" fill="#ffff00">
-     
-      <animate attributeName="cx"
-        from="50"  to="200"
-        begin="0s" dur="2s"
-        fill="freeze"             
-        repeatCount="1"/>
-           <animate 
-      attributeName="fill" 
-      values="#ffff00;transparent; " 
-      begin="7s"
-      dur="1s"
-      fill="freeze"
-      repeatCount="1" 
-  />
-  </circle>
-    <circle  cx="50" cy="50" r="30" fill="#ff0000">
-      
-      <animate attributeName="cx"
-        from="50"  to="300"
-        begin="0s" dur="3s"
-        fill="freeze"             
-        repeatCount="1"/>
-           <animate 
-      attributeName="fill" 
-      values="#ff0000;transparent; " 
-      begin="6.8s"
-      dur="1s"
-      fill="freeze"
-      repeatCount="1" 
-  />
-  </circle>
-  <circle  cx="50" cy="50" r="30" fill="#ffff00">      
-    <animate attributeName="cx"
-        from="50"  to="400"
-        begin="0s" dur="4s"
-        fill="freeze"             
-        repeatCount="1"/>
-         <animate 
-      attributeName="fill" 
-      values="#ffff00;transparent; " 
-      begin="6.6s"
-      dur="1s"
-      fill="freeze"
-      repeatCount="1" 
-  />
-  </circle>
-  <circle  cx="50" cy="50" r="30" fill="#ff0000">     
-    <animate attributeName="cx"
-        from="50"  to="500"
-        begin="0s" dur="5s"
-        fill="freeze"             
-        repeatCount="1"/>
-         <animate 
-      attributeName="fill" 
-      values="#ff0000;transparent; " 
-      begin="6.4s"
-      dur="1s"
-      fill="freeze"
-      repeatCount="1" 
-  />
-  </circle>
-  <circle  cx="50" cy="50" r="30" fill="#ffff00">
-        <animate attributeName="cx"
-        from="50"  to="600"
-        begin="0s" dur="6s"
-        fill="freeze"             
-        repeatCount="1"/>
-         <animate 
-      attributeName="fill" 
-      values="#ffff00;transparent; " 
-      begin="6.2s"
-      dur="1s"
-      fill="freeze"
-      repeatCount="1" 
-  />
-  </circle>
-    
+<svg fill="none" viewBox="0 0 600 300" width="600" height="300" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        @keyframes hi  {
+            0% { transform: rotate( 0.0deg) }
+           10% { transform: rotate(14.0deg) }
+           20% { transform: rotate(-8.0deg) }
+           30% { transform: rotate(14.0deg) }
+           40% { transform: rotate(-4.0deg) }
+           50% { transform: rotate(10.0deg) }
+           60% { transform: rotate( 0.0deg) }
+          100% { transform: rotate( 0.0deg) }
+        }
+
+        @keyframes gradient {
+          0% {
+            background-position: 0% 50%;
+          }
+          50% {
+            background-position: 100% 50%;
+          }
+          100% {
+            background-position: 0% 50%;
+          }
+        }
+
+        .container {
+          --color-main: #ef476f;
+          --color-primary: #ffd166;
+          --color-secondary: #06d6a0;
+          --color-tertiary: #118ab2;
+
+          background: linear-gradient(
+            -45deg,
+            var(--color-main),
+            var(--color-primary),
+            var(--color-secondary),
+            var(--color-tertiary)
+          );
+          background-size: 400% 400%;
+          animation: gradient 5s ease infinite;
+
+          width: 100%;
+          height: 300px;
+
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: white;
+
+          font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        }
+
+        .hi {
+          animation: hi 1.5s linear -0.5s infinite;
+          display: inline-block;
+          transform-origin: 70% 70%;
+        }
+      </style>
+
+      <div class="container">
+        <h1>Hi there, my name is Nikola <div class="hi">👋</div></h1>
+      </div>
+    </div>
+  </foreignObject>
 </svg>
